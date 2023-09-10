@@ -1,0 +1,133 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+  display: block;
+}
+body {
+  color: #666666;
+  background-color: #f9f8f6;
+  background-image: url('https://live.staticflickr.com/65535/53177626639_9a92e30bbf_c.jpg');
+  background-position: center;
+  font-family: Georgia, Times, serif;
+  line-height: 1.4em;
+  margin: 0px;
+}
+.wrapper {
+  max-width: 970px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: rgb(50, 50, 125);
+  color: white;
+}
+header {
+  height: 160px;
+}
+h1 {
+    margin: 0;
+    padding: 1em 2em 2em 2em; 
+    background-image: url(https://live.staticflickr.com/65535/53176835727_2fa9994e69_b.jpg);
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+nav,
+footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #140137;
+  height: 30px;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+nav li a {
+  color: #ffffff;
+}
+nav li a:hover,
+nav li a.current {
+  color: rgb(131, 131, 222);
+}
+section.courses {
+  float: left;
+  width: 659px;
+  border-right: 1px solid rgb(130, 109, 251);
+}
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+hgroup {
+  margin-top: 40px;
+}
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid rgb(130, 109, 251);
+}
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+aside {
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid rgb(130, 109, 251);
+}
+aside section a:hover {
+  color: rgb(55, 121, 253);
+  background-color: rgb(53, 53, 200);
+}
+a {
+  color: rgb(208, 200, 255);
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+h2 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+}
+h3 {
+  margin: 0px 0px 10px 0px;
+  color: rgb(55, 121, 253);
+}
+aside h2 {
+  padding: 30px 0px 10px 0px;
+  color: rgb(55, 121, 253);
+}
+footer {
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
+}
+
+.imgarticule{
+    width: 200px;
+    display: flex;
+    margin: auto;
+}

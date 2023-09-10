@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Actividad 01 personalizada</title>
+		<link rel="stylesheet" href=".\css\pernalizada01.css" />
+	</head>
+	<body>
+        <div class="container">
+            <section class="little_header">
+                <h1>Johan Puentes Villafrade</h1>
+                <h3>Estudiante de ingenieria de software</h3>
+            </section>
+            <p>Actualmente me encuentro cursando 4 periodo en la universatia de Colombia, durante este tiempo pude aprender
+                sobre las bases de multiples lenguajes y he realizado proyectos pequeños con las mismas, actualmente ofrezco
+                talleres virtuales para reforzar todos aquellos conocimientos y poder ayudar a otros estudiantes
+                que están iniciando en el mundo de la programación.
+            </p>
+            <p>Entre los lenguajes que tengo conocimiento se encuentran:</p>
+            <ul>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>C++</li>
+            </ul>
+            <table>
+                <tr class="head">
+                    <th></th>
+                    <th>Taller 1</th>
+                    <th>Taller 2</th>
+                    <th>Taller 3</th>
+                </tr>
+                <tr>
+                    <th>Javascript</th>
+                    <td>Lun, 10 Feb 2023<br />12am - 4pm</td>
+                    <td>Mier, 13 Mar 2023<br />8am - 3pm</td>
+                    <td>Sab, 20 Mar 2023<br />12am - 12pm</td>
+                </tr>
+                <tr class="even">
+                    <th>Python</th>
+                    <td>Mier, 17 Abr 2023<br />9am - 1am</td>
+                    <td>Mar, 15 May 2023<br />11am - 1pm</td>
+                    <td>Sab, 1 May 2023<br />8am - 1am</td>
+                </tr>
+                <tr>
+                    <th>C#</th>
+                    <td>Sab, 19 Jun 2023<br />7am - 2pm</td>
+                    <td>Jue, 3 Jul 2023<br />7am - 2am</td>
+                    <td>Sab, 21 Jul 2023<br />11am - 2pm</td>
+                </tr>
+                <tr class="even">
+                    <th>SQL</th>
+                    <td>Lun, 4 Ago 2023<br />10am - 4am</td>
+                    <td>Dom, 3 Sep 2023<br />6am - 4pm</td>
+                    <td>Vier, 15 Sep 2023<br />11am - 4pm</td>
+                </tr>
+                <tr class="even">
+                    <th>C++</th>
+                    <td>Vier, 7 Ago 2023<br />2am - 10am</td>
+                    <td>Sab, 4 Sep 2023<br />1am - 4am</td>
+                    <td>Dom, 16 Sep 2023<br />11am - 6pm</td>
+                </tr>
+            </table>
+            <form action="actividad_02.html" method="get">
+                    <fieldset>
+                        <legend>Registrese en el taller de su interes:</legend>
+                        <p><label class="title" for="name">Digite nombre:</label>
+                            <input type="text" name="name" id="name"><br />
+                            <label class="title" for="lastname">Digite apellido:</label>
+                            <input type="text" name="lastname" id="lastname">
+                            <label class="title" for="email">Digite correo:</label>
+                            <input type="text" name="email" id="email">
+                            <label class="title" for="cell">Digite celular:</label>
+                            <input type="text" name="cell" id="cell"></p>
+                        <p><label for="location" class="title">Inscribir taller:</label>
+                            <select name="location" id="location">
+                                <option value="ja">Javascript</option>
+                                <option value="py">Python</option>
+                                <option value="c">C#</option>
+                                <option value="sql">SQL</option>
+                                <option value="cc">C++</option>
+                            </select></p>
+                        <span class="title">¿Quires ser miembro del discord?</span>
+                        <label><input type="radio" name="member" value="si" /> Si</label>
+                        <label><input type="radio" name="member" value="no" /> No</label></p>
+                    </fieldset>
+                <div class="submit"><input type="submit" value="Registro" /></div>
+            </form>
+        </div>
+	</body>
+</html>
