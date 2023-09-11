@@ -23,7 +23,7 @@ body {
 }
 .wrapper {
   max-width: 970px;
-  min-width: 750px;
+  min-width: 700px;
   margin: 20px auto 20px auto;
   border: 2px solid #000000;
   background-color: rgb(50, 50, 125);
@@ -77,7 +77,8 @@ hgroup {
 }
 figure {
   float: left;
-  width: 290px;
+  max-width: 290px;
+  min-width: 100px;
   height: 220px;
   padding: 5px;
   margin: 20px;
@@ -128,7 +129,41 @@ footer {
 }
 
 .imgarticule{
-    width: 200px;
+    max-width: 200px;
+    min-width: 100px;
     display: flex;
     margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .imgarticule{
+    max-width: 150px;
+  }
+
+  figure {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  article{
+    max-width: 375px;
+  }
+
+  header{
+    max-width: 375px;
+    
+  }
+
+  .java{
+    margin-top: 5em;
+  }
+
+  h1{
+    font-size: 2.2em;
+  }
+
+  nav{
+    padding-bottom: 3.5em;
+  }
+  
 }
